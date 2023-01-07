@@ -11,15 +11,6 @@ const questions = [
     `Test Instructions?`
 ];
 
-// const questions = {
-//     "title":`What is the title of your project?`,
-//     "description":`A Description of your project?`,
-//     "installation": `What are the installation instructions (if none, type "N/A")?`,
-//     "usage": `Usage information?`, 
-//     "contributions":`Contribution Guidelines?`,
-//     "test": `Test Instructions?`
-// }
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
 
