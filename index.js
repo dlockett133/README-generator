@@ -54,7 +54,17 @@ function init() {
                     name: `license`,
                     message: `License?`,
                     choices: [`MIT`,'ISC',`GNU GPLv3`]
-                }
+                },
+                {
+                    type: `input`,
+                    name: `username`,
+                    message: `Github Username?`
+                },
+                {
+                    type: `input`,
+                    name: `email`,
+                    message: `Contact Email?`
+                },
             ])
             .then((data)=>{
                 console.log(data)
