@@ -8,7 +8,10 @@ const questions = [
     `What are the installation instructions (if none, type "N/A")?`, 
     `Usage information?`, 
     `Contribution Guidelines?`, 
-    `Test Instructions?`
+    `Test Instructions?`,
+    `License?`,
+    `Github Username?`,
+    `Contact Email?`
 ];
 
 // TODO: Create a function to write README file
@@ -52,18 +55,18 @@ function init() {
                 {
                     type: `list`,
                     name: `license`,
-                    message: `License?`,
+                    message: `${questions[6]}`,
                     choices: [`MIT`,'ISC',`GNU GPLv3`]
                 },
                 {
                     type: `input`,
                     name: `username`,
-                    message: `Github Username?`
+                    message: `${questions[7]}`
                 },
                 {
                     type: `input`,
                     name: `email`,
-                    message: `Contact Email?`
+                    message: `${questions[8]}`
                 },
             ])
             .then((data)=>{
