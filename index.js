@@ -49,6 +49,12 @@ function init() {
                     name: `test`,
                     message: `${questions[5]}`
                 },
+                {
+                    type: `list`,
+                    name: `license`,
+                    message: `License?`,
+                    choices: [`MIT`,'ISC',`GNU GPLv3`]
+                }
             ])
             .then((data)=>{
                 console.log(data)
