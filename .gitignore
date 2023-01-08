@@ -137,3 +137,6 @@ Temporary Items
 ### macOS Patch ###
 # iCloud generated files
 *.icloud
+
+# README.md
+README.md
