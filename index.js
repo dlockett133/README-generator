@@ -15,7 +15,11 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(`README.md`, data, (err,data) => {
+        err ? console.log(err) : console.log("Your README.md has been generated")
+    })
+}
 
 // TODO: Create a function to initialize app
 function init() {
@@ -57,6 +61,7 @@ function init() {
                     name: `license`,
                     message: `${questions[6]}`,
                     choices: [`MIT`,'ISC',`GNU GPLv3`]
+                    //Add a badge for the license choices
                 },
                 {
                     type: `input`,
