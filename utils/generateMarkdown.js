@@ -60,7 +60,7 @@ ${data.tests}
 
 ## Questions
 Any additional questions? Please contact me via:
-Github Profile: https://github.com/${data.username}
+Github: https://github.com/${data.username}
 Email: ${data.email}
 `;
 }
