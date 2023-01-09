@@ -33,6 +33,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+${renderLicenseSection(data.license)}
 ## Description
 ${data.description}
 
@@ -49,7 +50,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-${renderLicenseSection(data.license)}
+This application is covered by the ${data.license} License
 
 ## Contributing
 ${data.contributions}
