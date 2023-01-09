@@ -59,6 +59,8 @@ ${data.contributions}
 ${data.tests}
 
 ## Questions
+Github Profile: https://github.com/${data.username}
+Email: ${data.email}
 `;
 }
 
