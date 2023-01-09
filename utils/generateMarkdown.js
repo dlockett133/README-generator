@@ -26,7 +26,7 @@ function renderLicenseSection(license) {
   if (license === null) {
     return ""
   } else {
-    return `## License`
+    return `[![License: ${license}](${renderLicenseBadge(license)})](${renderLicenseLink(license)})`
   }
 }
 // TODO: Create a function to generate markdown for README
@@ -49,7 +49,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-${data.license}
+${renderLicenseSection(data.license)}
 
 ## Contributing
 ${data.contributions}
