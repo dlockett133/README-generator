@@ -60,8 +60,8 @@ ${data.tests}
 
 ## Questions
 Any additional questions? Please contact me via:
-Github: https://github.com/${data.username}
-Email: ${data.email}
+- Github: https://github.com/${data.username}
+- Email: ${data.email}
 `;
 }
 
