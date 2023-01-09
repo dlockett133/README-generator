@@ -53,7 +53,7 @@ function init() {
                 },
                 {
                     type: `input`,
-                    name: `test`,
+                    name: `tests`,
                     message: `${questions[5]}`
                 },
                 {
