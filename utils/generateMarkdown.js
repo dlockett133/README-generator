@@ -1,15 +1,23 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  let badge = `https://img.shields.io/badge/License-${license}-blue.svg`
-  return badge
+  if (license === null) {
+    return ""
+  } else {
+    let badge = `https://img.shields.io/badge/License-${license}-blue.svg`
+    return badge
+  }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  let link = `https://opensource.org/licenses/${license}`
-  return link;
+  if (license === null) {
+    return ""
+  } else {
+    let link = `https://opensource.org/licenses/${license}`
+    return link;
+  }
 }
 
 // TODO: Create a function that returns the license section of README
