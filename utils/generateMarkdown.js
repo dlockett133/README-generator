@@ -14,31 +14,31 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## Description
-  ${data.description}
-  
-  ## Table of Contents
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Credits](#credits)
-  * [License](#license)
+## Description
+${data.description}
 
-  ##Installation
-  ${data.installation}
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
 
-  ## Usage
-  ${data.usage}
+## Installation
+${data.installation}
 
-  ##License
-  ${data.license}
+## Usage
+${data.usage}
 
-  ## Contributing
-  ${data.contributions}
+##License
+${data.license}
 
-  ## Tests
-  ${data.tests}
+## Contributing
+${data.contributions}
 
-  ## Questions
+## Tests
+${data.tests}
+
+## Questions
 `;
 }
 
