@@ -138,5 +138,5 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
-# README.md
-README.md
+# criteria directory
+/criteria
