@@ -139,4 +139,7 @@ Temporary Items
 *.icloud
 
 # criteria directory
-/criteria
+criteria/
+
+##Random folder###
+extra/
